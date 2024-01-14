@@ -1,0 +1,14 @@
+CRITICAL - 2023-12-08 00:31:16 --> Too few arguments to function App\Controllers\Home::produk(), 0 passed in C:\xampp\xampp8160\htdocs\ci43\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->produk()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\xampp8160\\htdocs\\ci43\\public\\index.php')
+CRITICAL - 2023-12-08 01:48:29 --> Too few arguments to function App\Controllers\Home::index(), 1 passed in C:\xampp\xampp8160\htdocs\ci43\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\Home.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index('')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\xampp8160\\htdocs\\ci43\\public\\index.php')
